@@ -1,0 +1,21 @@
+{
+    "name": "stackful-au/eventbrite-event-lists",
+    "description": "Lists all upcoming events for an EventBrite account",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "guzzlehttp/guzzle": "^6.3",
+        "league/flysystem": "^1.0"
+    },
+    "authors": [
+        {
+            "name": "Stackful",
+            "email": "hello@stackful.com.au"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Stackful\\": "src/"
+        }
+    }
+}
